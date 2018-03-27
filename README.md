@@ -21,6 +21,23 @@ This is an in memory pubsub server.
   * `>> %{user: "Aaron", data: "lots of it"}`
 
 
+## Heroku
+
+Homebrew heroku if you haven't already
+
+* `heroku update`
+* `heroku login`
+* `heroku git:remote -a instance-name-here`
+* `heroku config:set SECRET_KEY_BASE=A_SECRET_KEY_SHOULD_GO_HERE`
+
+Deploy
+
+* `git push heroku master`
+
+Useful
+
+* `heroku logs --tail`
+
 ## How it works
 
 It's all phoenix [Channels](https://hexdocs.pm/phoenix/channels.html) under the hood.
