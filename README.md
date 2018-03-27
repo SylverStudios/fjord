@@ -23,6 +23,8 @@ This is an in memory pubsub server.
 
 ## Heroku
 
+Call me : `damp-tor-73443`
+
 Homebrew heroku if you haven't already
 
 * `heroku update`
