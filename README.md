@@ -23,7 +23,11 @@ This is an in memory pubsub server.
 
 ## Heroku
 
-Call me : `damp-tor-73443`
+My name is: `damp-tor-73443`
+
+
+Call me : `wss://damp-tor-73443.herokuapp.com/websocket`
+
 
 Homebrew heroku if you haven't already
 
@@ -48,6 +52,7 @@ Every client connects to a "topic" which is something like "*" or "room:123" and
 Everyone in a particular "topic" will broadcast there video actions to everyone else.
 
 The server has a couple of message types and we just take messages and broadcast them to the rest of the connected clients (not back to the sender)
+
 
 ### Message types
 
